@@ -1,0 +1,42 @@
+
+  /* label color */
+   .input-field label {
+     color: grey;
+   }
+
+   /* label focus color */
+     .input-field input[type=text]:focus + label {
+     color: #EC7D00;     
+   }
+
+   .input-field input[type=password]:focus + label {
+     color: #EC7D00;     
+   }
+
+   /* label underline focus - ao clicar */
+   .input-field input[type=text]:focus {
+     color: #9e9e9e;
+   	 border-bottom: 1px solid #EC7D00;
+     box-shadow: 0 1px 0 0 #EC7D00;
+   }
+    /* label underline focus - ao clicar */
+   .input-field input[type=password]:focus {
+   	 color: #9e9e9e;
+   	 border-bottom: 1px solid #EC7D00;
+     box-shadow: 0 1px 0 0 #EC7D00;
+   } 
+
+ 	 /* cor input ao tirar o mouse */
+   .input-field input[type=text].valid {
+   	color: #424242; 
+     border-bottom: 1px solid #EC7D00;
+     box-shadow: 0 1px 0 0 #EC7D00;
+   }
+   /* cor input ao tirar o mouse */ 
+   .input-field input[type=password].valid {
+   	color: #424242; 
+    border-bottom: 1px solid #EC7D00;
+    box-shadow: 0 1px 0 0 #EC7D00;
+   }
+
+  
